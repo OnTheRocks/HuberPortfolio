@@ -18,7 +18,7 @@
 
 .NavBar nav ul li {
   display: inline-block;
-  margin: 20px;
+  margin: 1.5vw;
 
 }
 
@@ -43,7 +43,6 @@
   .NavBar .MobileNavigation {
     display: flex;
     align-items: center;
-    background: red;
   }
 
   .NavBar .MobileNavigation .Hamburger {
@@ -51,4 +50,25 @@
     right: 5%;
     cursor: pointer;
   }
+
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #181818;
+    border-top: 2px solid #40d11c;
+  }
+
+  .NavBar nav ul li   {
+    padding-left: 10%;
+  }
+
+  .NavBar a:hover {
+    border-bottom: none;
+    color: #40d11c
+  }
+
 }
