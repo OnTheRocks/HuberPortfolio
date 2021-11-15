@@ -1,0 +1,12 @@
+.Home {
+  background: green;
+  display: flex;
+  height: 630px;
+  padding-top: 80px;
+  position: relative;
+
+}
+
+.Home .Container h1 {
+  margin: 0;
+}
