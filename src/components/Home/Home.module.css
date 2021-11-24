@@ -10,3 +10,8 @@
 .Home .Container h1 {
   margin: 0;
 }
+
+.Home .Code {
+  height: 24%;
+  position: absolute;
+}
